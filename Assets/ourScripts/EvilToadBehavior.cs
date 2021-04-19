@@ -5,7 +5,7 @@ using UnityEngine;
 public class EvilToadBehavior: MonoBehaviour
 {
 
-    public NavMeshAgent agent;
+    public UnityEngine.AI.NavMeshAgent agent;
 
     public Transform player;
 
@@ -27,7 +27,7 @@ public class EvilToadBehavior: MonoBehaviour
 
     void Awake() {
         player = GameObject.Find("Ellen").transform;
-        agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
     // Start is called before the first frame update
