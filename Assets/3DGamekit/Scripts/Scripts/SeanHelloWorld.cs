@@ -8,7 +8,7 @@ public class SeanHelloWorld : MonoBehaviour
     void Start()
     {
         //This is a test to see if I can commit to the GitHub repository
-        //Now trying to commit from the command line
+        //Now trying to commit from the command line, after installing git lfs
     }
 
     // Update is called once per frame
