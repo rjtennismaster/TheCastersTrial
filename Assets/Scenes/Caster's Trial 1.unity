@@ -24995,29 +24995,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1132502619872352, guid: 586fcc08fe8d64a4e847760bf4a741a5, type: 3}
-      propertyPath: m_Layer
-      value: 16
-      objectReference: {fileID: 0}
     - target: {fileID: 1295250732606774, guid: 586fcc08fe8d64a4e847760bf4a741a5, type: 3}
       propertyPath: m_Name
       value: Key
-      objectReference: {fileID: 0}
-    - target: {fileID: 1295250732606774, guid: 586fcc08fe8d64a4e847760bf4a741a5, type: 3}
-      propertyPath: m_Layer
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 1529325815415234, guid: 586fcc08fe8d64a4e847760bf4a741a5, type: 3}
-      propertyPath: m_Layer
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 1581890269755270, guid: 586fcc08fe8d64a4e847760bf4a741a5, type: 3}
-      propertyPath: m_Layer
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 1992326767494636, guid: 586fcc08fe8d64a4e847760bf4a741a5, type: 3}
-      propertyPath: m_Layer
-      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4612907151739446, guid: 586fcc08fe8d64a4e847760bf4a741a5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -25123,52 +25103,6 @@ MonoBehaviour:
   dataSettings:
     dataTag: 53b03438-8b67-4564-ba18-7e32d1656a47
     persistenceType: 3
---- !u!114 &1087555495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1087555492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6e38ccf902f148e69c411da9fcde5cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layers:
-    serializedVersion: 2
-    m_Bits: 512
-  OnEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1087555493}
-        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1087555494}
-        m_TargetAssemblyTypeName: Gamekit3D.InventoryItem, Assembly-CSharp
-        m_MethodName: Save
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnExit:
-    m_PersistentCalls:
-      m_Calls: []
-  inventoryChecks: []
 --- !u!1 &1127254490
 GameObject:
   m_ObjectHideFlags: 0
@@ -29714,7 +29648,19 @@ MonoBehaviour:
   - key: Key1
     OnAdd:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 2034418528}
+          m_TargetAssemblyTypeName: Gamekit3D.InventoryController, Assembly-CSharp
+          m_MethodName: AddItem
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Key1
+            m_BoolArgument: 0
+          m_CallState: 2
     OnRemove:
       m_PersistentCalls:
         m_Calls: []
