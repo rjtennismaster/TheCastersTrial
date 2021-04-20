@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.000015259, y: -416}
+  m_AnchoredPosition: {x: 0.000015259, y: -369}
   m_SizeDelta: {x: 1509.8884, y: 536.9626}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &99762037
@@ -193,9 +193,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Cthugha leaves from the secret exit. Cthugha and Tindalos sneak to where
-    the King lives and assassinate him. The ruling of the current royal family is
-    overthrown. Cthugha and Tindalos establish a new country that gives back freedom
+  m_Text: "\t\tCthugha leaves from the secret exit. A man in a wizard robe is already
+    waiting for her. He introduced himself as Tindalos Nightwind. He tells Cthugha
+    that he cannot stand the situation that he can never see his family again. Also,
+    he believes that the kingdom is being lead to a downfall. He asks Cthugha to
+    help him overthrow the ruling of the king. She agrees. They sneak to the King's
+    bedroom with magic and assassinate him. The ruling of the current royal family
+    is overthrown. Cthugha and Tindalos establish a new country that gives back freedom
     to the magic casters. They develop schools that teach magic, so that the magic
     casters are able to learn higher-level spells. A war is prevented as Cthugha
     and Tindalos don\u2019t want to start a war, and other countries don\u2019t want
