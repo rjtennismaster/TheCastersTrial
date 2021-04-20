@@ -504,7 +504,9 @@ PrefabInstance:
         [Press Space to
         jump]
 
-        [Left click to shoot]'
+        [Left click to shoot]
+
+        [Press F to Daze]'
       objectReference: {fileID: 0}
     - target: {fileID: 224260303033278428, guid: 114c5f41fd4099445a42c1d9bd01f222,
         type: 3}
@@ -19513,7 +19515,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17578
+  m_Name: pb_Mesh60226
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21614,7 +21616,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 941ae8518ac319140a7d91333de663ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerHasKey: 0
 --- !u!1001 &1426078758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25887,6 +25888,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b881b84291d2b64d8f5bb528af1761b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHasKey: 0
+--- !u!114 &2034418536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034418527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cfa7d8a8907c68489424679266f13ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2035789528
