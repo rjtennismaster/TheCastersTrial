@@ -5,26 +5,17 @@ using UnityEngine;
 public class dazeEnemies : MonoBehaviour
 {
 
-    Animator animator;
-    Animator animator1;
-    Animator animator2;
-    Animator animator3;
-    Animator animator4;
-    Animator animator5;
-    Animator animator6;
-    Animator animator7;
+
+    List<Animator> animatorList = new List<Animator>();
 
     // Start is called before the first frame update
     void Start()
     {
-        animator = GameObject.Find("Chomper").GetComponent<Animator>();
-        animator1 = GameObject.Find("Chomper (1)").GetComponent<Animator>();
-        animator2 = GameObject.Find("Chomper (2)").GetComponent<Animator>();
-        animator3 = GameObject.Find("Chomper (3)").GetComponent<Animator>();
-        animator4 = GameObject.Find("Chomper (4)").GetComponent<Animator>();
-        animator5 = GameObject.Find("Chomper (5)").GetComponent<Animator>();
-        animator6 = GameObject.Find("Chomper (6)").GetComponent<Animator>();
-        animator7 = GameObject.Find("Chomper (7)").GetComponent<Animator>();
+        animatorList.Add(GameObject.Find("Chomper").GetComponent<Animator>());
+        for(int i = 1; i < 8; i++)
+        {
+            animatorList.Add(GameObject.Find("Chomper (" + i +")").GetComponent<Animator>());
+        }
     }
 
     // Update is called once per frame
@@ -32,14 +23,13 @@ public class dazeEnemies : MonoBehaviour
     {
         if (Input.GetButtonDown("Daze"))
         {
-            animator.SetBool("Daze", true);
-            animator1.SetBool("Daze", true);
-            animator2.SetBool("Daze", true);
-            animator3.SetBool("Daze", true);
-            animator4.SetBool("Daze", true);
-            animator5.SetBool("Daze", true);
-            animator6.SetBool("Daze", true);
-            animator7.SetBool("Daze", true);
+            foreach(Animator animator in animatorList)
+            {
+                if(animator != null)
+                {
+                    animator.SetBool("Daze", true);
+                }
+            }
         }
     }
 }
