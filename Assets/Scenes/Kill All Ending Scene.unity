@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.000019073, y: -367}
+  m_AnchoredPosition: {x: -0.000019073, y: -361}
   m_SizeDelta: {x: 1542.992, y: 570.0661}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &99762037
@@ -193,19 +193,18 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cthugha leaves the dungeon by killing all the monsters, she is invited
-    to the secret army. The job of overthrowing the kingdom will fall on the shoulders
-    of the next spell caster that is brought to the dungeon. However, years have
-    passed, and before the next spell caster is found, the neighboring countries
-    manage to invent a new spell against the famous warrior army, Reverse Gravity.
-    Although the warriors are fearless, they cannot do anything if they are floating
-    in the air. Without the warrior army, the kingdom loses even after sending out
-    the secret caster army because although the magic caster army is a surprise to
-    other countries, the casters are not as strong as those of other countries because
-    they are never educated about using magic. They only know how to cast the weakest
-    spells, but the magic casters in the enemy armies are able to cast the strongest
-    spells. Cthugha is killed during the war by a meteor swarm spell, and her family
-    never sees her or her body again.
+  m_Text: "\t\tAfter killing all the monsters, Cthugha is taken out of the dungeon
+    and invited to a secret magic caster army kept by the king. Years have passed,
+    her family believes that she is already dead. The neighboring countries manage
+    to invent a new spell against the famous warrior army of the Kingdom of Rolado,
+    Reverse Gravity, and start a war. Although the warriors are fearless, they cannot
+    do anything if they are floating in the air. Without the warrior army, the kingdom
+    loses even after sending out the secret caster army because although the magic
+    caster army is a surprise to other countries, the casters are not as strong as
+    those of other countries because they are never educated about using magic. They
+    only know how to cast the weakest spells, but the magic casters in the enemy
+    armies are able to cast the strongest spells. Cthugha is killed during the war
+    by a meteor swarm spell, and her family never sees her or her body ever again."
 --- !u!222 &99762038
 CanvasRenderer:
   m_ObjectHideFlags: 0
