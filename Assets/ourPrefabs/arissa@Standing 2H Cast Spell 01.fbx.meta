@@ -1,32 +1,12 @@
 fileFormatVersion: 2
-guid: c5a690c42b36c37408bcb0973101d470
+guid: 4ad49c2fb27f6364bbda95d4fba8007b
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
       74: -203655887218126122
     second: mixamo.com
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Arissa_MAT
-    second: {fileID: 2100000, guid: 364ea40dd81f98d468dcb9852bb2a2f3, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Arissa_DIFF_diffuse
-    second: {fileID: 2800000, guid: 20777b18e7febc54688fec51db82e00b, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Arissa_NM_normal
-    second: {fileID: 2800000, guid: d8df75df366dd4146826a5dc0578c708, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Arissa_SPEC_specular
-    second: {fileID: 2800000, guid: 0f5281db4e914644b890c028105ff236, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -95,8 +75,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - 4ad49c2fb27f6364bbda95d4fba8007b
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
@@ -952,11 +931,12 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: c5a690c42b36c37408bcb0973101d470,
+    type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
