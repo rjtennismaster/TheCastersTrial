@@ -148,6 +148,15 @@ namespace Gamekit3D
 
             meleeWeapon.SetOwner(gameObject);
 
+            foreach (Animator a in GetComponentsInChildren<Animator>())
+            {
+                if (a != m_Animator)
+                {
+                    m_Animator.avatar = a.avatar;
+                    a.enabled = false;
+                }
+            }
+
             s_Instance = this;
         }
 
@@ -315,11 +324,33 @@ namespace Gamekit3D
         // Called each physics step to set the rotation Ellen is aiming to have.
         void SetTargetRotation()
         {
+            float Correction;
             // Create three variables, move input local to the player, flattened forward direction of the camera and a local target rotation.
             Vector2 moveInput = m_Input.MoveInput;
             Vector3 localMovementDirection = new Vector3(moveInput.x, 0f, moveInput.y).normalized;
             
             Vector3 forward = Quaternion.Euler(0f, cameraSettings.Current.m_XAxis.Value, 0f) * Vector3.forward;
+            //Humanoid Rotation Correction
+            if (m_Animator.isHuman)
+            {
+                Correction = -0.25f;
+                if (forward.z > 0)
+                {
+                    forward.x += Correction;
+                }
+                else
+                {
+                    forward.x -= Correction;
+                }
+                if (forward.x > 0)
+                {
+                    forward.z -= Correction;
+                }
+                else
+                {
+                    forward.z += Correction;
+                }
+            }
             forward.y = 0f;
             forward.Normalize();
 
