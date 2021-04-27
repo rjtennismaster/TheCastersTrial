@@ -17,6 +17,7 @@ public class Fireball : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		Damageable d = other.GetComponentInParent<Damageable>();
+		Debug.Log(other);
 		Damageable.DamageMessage message = new Damageable.DamageMessage
         {
             damageSource = transform.position,
@@ -33,8 +34,10 @@ public class Fireball : MonoBehaviour {
 			damageableScript.maxHitPoints -= 1;
 			d.ApplyDamage(message);
 		}
+		//Debug.Log("EMMMM");
 
-		if(other.gameObject.tag == "Enemy"){
+		if(other.tag != "InfoZone" && other.tag != "Checkpoint" || other.gameObject.tag == "Enemy"){
+
 			Destroy(this.gameObject);
 		}
 	}
