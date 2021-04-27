@@ -26,7 +26,7 @@ namespace Gamekit3D
 
         public Vector3 originalPosition { get; protected set; }
         [System.NonSerialized]
-        public float attackDistance = 3;
+        public float attackDistance = 1.5f;
 
         public MeleeWeapon meleeWeapon;
         public TargetScanner playerScanner;
