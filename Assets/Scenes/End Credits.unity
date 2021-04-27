@@ -250,7 +250,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 163}
+  m_AnchoredPosition: {x: 0, y: 194}
   m_SizeDelta: {x: 1100, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &353545575
@@ -273,7 +273,34 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'End Credits:
+  m_text: 'Development Team:
+
+    Samir Hede
+
+    Zhaokuan (Frank) Chen
+
+    Randall
+    John
+
+    Sean Twomey
+
+    Yifeng Yu
+
+    
+
+    Assets:
+
+    https://www.pinterest.com/pin/30821578678882122/
+
+    https://www.pinterest.com/pin/470133648581700455/
+
+    https://freerangestock.com/photos/136104/close-up-of-a-dark-brick-wall--black-bricks.html
+
+    Dire
+    Wolf character model/animations: https://www.mixamo.com/#/
+
+    Unity 3D Game
+    Kit
 
 '
   m_isRightToLeft: 0
