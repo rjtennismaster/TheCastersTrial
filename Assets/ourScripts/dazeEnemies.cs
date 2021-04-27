@@ -16,7 +16,7 @@ public class dazeEnemies : MonoBehaviour
         animatorList.Add(GameObject.Find("Chomper").GetComponent<Animator>());
         for(int i = 1; i < 8; i++)
         {
-            animatorList.Add(GameObject.Find("Chomper (" + i +")").GetComponent<Animator>());
+            //animatorList.Add(GameObject.Find("Chomper (" + i +")").GetComponent<Animator>());
         }
     }
 
