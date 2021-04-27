@@ -7,6 +7,8 @@ namespace Gamekit3D
 {
     public class ChomperSMBPursuit : SceneLinkedSMB<ChomperBehavior>
     {
+
+        public string state;
         public override void OnSLStateNoTransitionUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             base.OnSLStateNoTransitionUpdate(animator, stateInfo, layerIndex);
@@ -47,6 +49,20 @@ namespace Gamekit3D
                     m_MonoBehaviour.StopPursuit();
                 }
             }
+        }
+
+        public override void OnSLStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+        {
+            var controller = animator.gameObject.GetComponent<EnemyController>();
+            if (controller == null) return;
+            controller.state = state;
+        }
+
+        public override void OnSLStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+        {
+            var controller = animator.gameObject.GetComponent<EnemyController>();
+            if (controller == null) return;
+            controller.state = "";
         }
     }
 }
