@@ -34,6 +34,7 @@ public class Fireball : MonoBehaviour {
 			damageableScript.maxHitPoints -= 1;
 			d.ApplyDamage(message);
 		}
+		//Debug.Log("EMMMM");
 
 		if(other.tag != "InfoZone" && other.tag != "Checkpoint" || other.gameObject.tag == "Enemy"){
 
