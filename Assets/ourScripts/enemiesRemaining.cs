@@ -5,11 +5,12 @@ using UnityEngine.UI;
 public class enemiesRemaining : MonoBehaviour
 {
 
-    public static int remainingEnemies = 7;
+    public static int remainingEnemies;
     Text counter;
     // Start is called before the first frame update
     void Start()
     {
+        remainingEnemies = 7;
         counter = GetComponent<Text>();
     }
 
