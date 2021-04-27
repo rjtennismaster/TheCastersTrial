@@ -15276,6 +15276,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 555349993456775035, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: playerScanner.detectionRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 555559063625332101, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: RunSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 555559063625332101, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: WalkSpeed
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd3c70a6621d4d1419c7001aacc12437, type: 3}
 --- !u!1001 &381297215
@@ -17452,6 +17467,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 555349993456775035, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: playerScanner.detectionRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 555559063625332101, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: RunSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 555559063625332101, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: WalkSpeed
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd3c70a6621d4d1419c7001aacc12437, type: 3}
@@ -22090,6 +22120,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 555349993456775035, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: playerScanner.detectionRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 555559063625332101, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: RunSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 555559063625332101, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: WalkSpeed
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd3c70a6621d4d1419c7001aacc12437, type: 3}
 --- !u!1001 &1087555491
@@ -22543,6 +22588,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 555349993456775035, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: playerScanner.detectionRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 555559063625332101, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: RunSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 555559063625332101, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: WalkSpeed
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd3c70a6621d4d1419c7001aacc12437, type: 3}
@@ -28357,6 +28417,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 555349993456775035, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: playerScanner.detectionRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 555559063625332101, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: RunSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 555559063625332101, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: WalkSpeed
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd3c70a6621d4d1419c7001aacc12437, type: 3}
 --- !u!1 &1911380635
@@ -29847,6 +29922,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 555349993456775035, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: playerScanner.detectionRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 555559063625332101, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: RunSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 555559063625332101, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: WalkSpeed
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd3c70a6621d4d1419c7001aacc12437, type: 3}
@@ -50578,6 +50668,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 555349993456775035, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: playerScanner.detectionRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 555559063625332101, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: RunSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 555559063625332101, guid: fd3c70a6621d4d1419c7001aacc12437,
+        type: 3}
+      propertyPath: WalkSpeed
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd3c70a6621d4d1419c7001aacc12437, type: 3}
