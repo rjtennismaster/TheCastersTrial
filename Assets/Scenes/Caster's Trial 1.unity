@@ -2060,7 +2060,7 @@ GameObject:
   - component: {fileID: 157977516}
   m_Layer: 16
   m_Name: Checkpoints
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16476,6 +16476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1458854367655716, guid: 6bd94cdd1484b2841a02028ad605dfda, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 4851426095153388, guid: 6bd94cdd1484b2841a02028ad605dfda, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -19040,6 +19044,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InfoZone
       objectReference: {fileID: 0}
+    - target: {fileID: 1068094817430916, guid: 41eaaa4dcdb4abc41b85dbf824f6d566, type: 3}
+      propertyPath: m_TagString
+      value: InfoZone
+      objectReference: {fileID: 0}
     - target: {fileID: 4989460595889808, guid: 41eaaa4dcdb4abc41b85dbf824f6d566, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -20178,6 +20186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InfoZone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1068094817430916, guid: 41eaaa4dcdb4abc41b85dbf824f6d566, type: 3}
+      propertyPath: m_TagString
+      value: InfoZone
+      objectReference: {fileID: 0}
     - target: {fileID: 4989460595889808, guid: 41eaaa4dcdb4abc41b85dbf824f6d566, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -21131,6 +21143,10 @@ PrefabInstance:
     - target: {fileID: 1458854367655716, guid: 6bd94cdd1484b2841a02028ad605dfda, type: 3}
       propertyPath: m_Name
       value: Checkpoint (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458854367655716, guid: 6bd94cdd1484b2841a02028ad605dfda, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 4851426095153388, guid: 6bd94cdd1484b2841a02028ad605dfda, type: 3}
       propertyPath: m_RootOrder
@@ -22497,6 +22513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1458854367655716, guid: 6bd94cdd1484b2841a02028ad605dfda, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 4851426095153388, guid: 6bd94cdd1484b2841a02028ad605dfda, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -22945,6 +22965,10 @@ PrefabInstance:
     - target: {fileID: 1068094817430916, guid: 41eaaa4dcdb4abc41b85dbf824f6d566, type: 3}
       propertyPath: m_Name
       value: InfoZone (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1068094817430916, guid: 41eaaa4dcdb4abc41b85dbf824f6d566, type: 3}
+      propertyPath: m_TagString
+      value: InfoZone
       objectReference: {fileID: 0}
     - target: {fileID: 4989460595889808, guid: 41eaaa4dcdb4abc41b85dbf824f6d566, type: 3}
       propertyPath: m_RootOrder
@@ -24467,6 +24491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint
       objectReference: {fileID: 0}
+    - target: {fileID: 1458854367655716, guid: 6bd94cdd1484b2841a02028ad605dfda, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 4851426095153388, guid: 6bd94cdd1484b2841a02028ad605dfda, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -24681,7 +24709,7 @@ GameObject:
   - component: {fileID: 1268702885}
   m_Layer: 2
   m_Name: Checkpoint
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25214,6 +25242,10 @@ PrefabInstance:
     - target: {fileID: 1068094817430916, guid: 41eaaa4dcdb4abc41b85dbf824f6d566, type: 3}
       propertyPath: m_Name
       value: InfoZone (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1068094817430916, guid: 41eaaa4dcdb4abc41b85dbf824f6d566, type: 3}
+      propertyPath: m_TagString
+      value: InfoZone
       objectReference: {fileID: 0}
     - target: {fileID: 4989460595889808, guid: 41eaaa4dcdb4abc41b85dbf824f6d566, type: 3}
       propertyPath: m_RootOrder
@@ -26758,6 +26790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: InfoZone (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1068094817430916, guid: 41eaaa4dcdb4abc41b85dbf824f6d566, type: 3}
+      propertyPath: m_TagString
+      value: InfoZone
+      objectReference: {fileID: 0}
     - target: {fileID: 4989460595889808, guid: 41eaaa4dcdb4abc41b85dbf824f6d566, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -27493,7 +27529,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17812
+  m_Name: pb_Mesh18432
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -27784,6 +27820,10 @@ PrefabInstance:
     - target: {fileID: 1458854367655716, guid: 6bd94cdd1484b2841a02028ad605dfda, type: 3}
       propertyPath: m_Name
       value: Checkpoint (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458854367655716, guid: 6bd94cdd1484b2841a02028ad605dfda, type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 4851426095153388, guid: 6bd94cdd1484b2841a02028ad605dfda, type: 3}
       propertyPath: m_RootOrder
@@ -28743,13 +28783,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860680917}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.17364816, z: 0, w: 0.9848078}
   m_LocalPosition: {x: 0, y: 1.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4035642545470928}
   m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 20, z: 0}
 --- !u!114 &1860680919
 MonoBehaviour:
   m_ObjectHideFlags: 0
