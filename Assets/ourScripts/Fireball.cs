@@ -27,23 +27,8 @@ public class Fireball : MonoBehaviour {
             throwing = false
         };
 
-                
-		//Damageable.DamageMessage data;
-
-		//data.amount = damage;
-        //data.damager = this;
-        //data.direction = m_Direction.normalized;
-        //data.damageSource = GameObject.Find("Ellen").transform.position;
-        //data.throwing = m_IsThrowingHit;
-        //data.stopCamera = false;
-		
-
-
-		Debug.Log("Hi");
-		Debug.Log(other.tag);
 		string EnemyTag = "Enemy";
 		if(other.tag == EnemyTag){
-			Debug.Log("Sup");
 			GameObject Enemy = GameObject.FindGameObjectWithTag(EnemyTag);
 			Gamekit3D.Damageable damageableScript = Enemy.GetComponent<Gamekit3D.Damageable>();
 			damageableScript.maxHitPoints -= 1;
@@ -51,6 +36,7 @@ public class Fireball : MonoBehaviour {
 		}
 
 		if(other.tag != "InfoZone" && other.tag != "Checkpoint" || other.gameObject.tag == "Enemy"){
+
 			Destroy(this.gameObject);
 		}
 	}
