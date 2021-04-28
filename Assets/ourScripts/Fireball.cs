@@ -17,7 +17,6 @@ public class Fireball : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		Damageable d = other.GetComponentInParent<Damageable>();
-		Debug.Log(other);
 		Damageable.DamageMessage message = new Damageable.DamageMessage
         {
             damageSource = transform.position,

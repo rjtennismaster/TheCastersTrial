@@ -9,7 +9,7 @@ namespace Gamekit3D
 {
     public partial class Damageable : MonoBehaviour
     {
-
+        public int damageToTake = 1;
         public int maxHitPoints;
         [Tooltip("Time that this gameObject is invulnerable for, after receiving damage.")]
         public float invulnerabiltyTime;
@@ -94,7 +94,7 @@ namespace Gamekit3D
                 return;
 
             isInvulnerable = true;
-            currentHitPoints -= data.amount;
+            currentHitPoints -= damageToTake;
 
             if (currentHitPoints <= 0)
                 schedule += OnDeath.Invoke; //This avoid race condition when objects kill each other.
