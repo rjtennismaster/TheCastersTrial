@@ -238,7 +238,7 @@ namespace Gamekit3D
             pushForce.y = 0;
 
             transform.forward = -pushForce.normalized;
-            controller.AddForce(pushForce.normalized * 7.0f - Physics.gravity * 0.6f);
+            controller.AddForce(pushForce.normalized * 2.0f,false);
 
             controller.animator.SetTrigger(hashHit);
             controller.animator.SetTrigger(hashThrown);
@@ -263,7 +263,7 @@ namespace Gamekit3D
             pushForce.y = 0;
 
             transform.forward = -pushForce.normalized;
-            controller.AddForce(pushForce.normalized * 5.5f, false);
+            controller.AddForce(pushForce.normalized * 2.0f, false);
 
             controller.animator.SetFloat(hashVerticalDot, verticalDot);
             controller.animator.SetFloat(hashHorizontalDot, horizontalDot);
