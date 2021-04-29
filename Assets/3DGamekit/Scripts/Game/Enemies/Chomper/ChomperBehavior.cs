@@ -278,6 +278,28 @@ namespace Gamekit3D
         {
             playerScanner.EditorGizmo(transform);
         }
+        void Update()
+        {
+            GameObject player = GameObject.Find("Ellen");
+            Vector3 playerPostion = player.transform.position;
+            Vector3 chomperPosition = transform.position;
+            float dist = Vector3.Distance(playerPostion, chomperPosition);
+            bool isAttacking = controller.animator.GetCurrentAnimatorStateInfo(0).IsName("ChomperAttack");
+            if (dist <= 1.5f && isAttacking)
+            {
+                Damageable d = player.GetComponentInChildren<Damageable>();
+                Damageable.DamageMessage message = new Damageable.DamageMessage
+                {
+                    damageSource = transform.position,
+                    damager = this,
+                    amount = 1,
+                    direction = (player.transform.position - transform.position).normalized,
+                    throwing = false
+                };
+
+                d.ApplyDamage(message);
+            }
+        }
 #endif
     }
 }
