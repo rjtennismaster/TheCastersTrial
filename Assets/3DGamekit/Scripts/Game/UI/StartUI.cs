@@ -54,9 +54,8 @@ namespace Gamekit3D
 
         public void RestartLevel()
         {
-            m_InPause = true;
-            SwitchPauseState();
-            SceneController.RestartZone();
+            ExitPause();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         void Update()
@@ -120,7 +119,7 @@ namespace Gamekit3D
             ExitPause();
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
-            SceneManager.LoadSceneAsync("Choose Level");
+            SceneManager.LoadScene("Choose Level");
         }
     }
 }
