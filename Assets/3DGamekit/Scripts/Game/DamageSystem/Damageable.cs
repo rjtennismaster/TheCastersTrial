@@ -65,6 +65,14 @@ namespace Gamekit3D
             OnResetDamage.Invoke();
         }
 
+        public void DamageByOne()
+        {
+            currentHitPoints -= 1;
+            isInvulnerable = false;
+            m_timeSinceLastHit = 0.0f;
+            OnReceiveDamage.Invoke();
+        }
+
         public void SetColliderState(bool enabled)
         {
             m_Collider.enabled = enabled;

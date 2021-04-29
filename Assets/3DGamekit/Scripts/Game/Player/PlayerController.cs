@@ -641,8 +641,15 @@ namespace Gamekit3D
             // Wait for the screen to fade in.
             // Currently it is not important to yield here but should some changes occur that require waiting until a respawn has finished this will be required.
             yield return StartCoroutine(ScreenFader.FadeSceneIn());
-            
-            m_Damageable.ResetDamage();
+
+            //m_Damageable.ResetDamage();
+
+            m_Damageable.DamageByOne();
+            GameObject shield = GameObject.Find("/Ellen/Shield");
+            if(shield != null)
+            {
+                shield.SetActive(false);
+            }
         }
 
         // Called by a state machine behaviour on Ellen's animator controller.
