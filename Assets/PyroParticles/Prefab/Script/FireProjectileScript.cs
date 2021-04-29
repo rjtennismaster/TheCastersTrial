@@ -55,8 +55,11 @@ namespace DigitalRuby.PyroParticles
             yield return new WaitForSeconds(ProjectileColliderDelay);
 
             Vector3 dir = ProjectileDirection * ProjectileColliderSpeed;
-            dir = ProjectileColliderObject.transform.rotation * dir;
-            ProjectileColliderObject.GetComponent<Rigidbody>().velocity = dir;
+            if(ProjectileColliderObject != null)
+            {
+                dir = ProjectileColliderObject.transform.rotation * dir;
+                ProjectileColliderObject.GetComponent<Rigidbody>().velocity = dir;
+            }
         }
 
         protected override void Start()
