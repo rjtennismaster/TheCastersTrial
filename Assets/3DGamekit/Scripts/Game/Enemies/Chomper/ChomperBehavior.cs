@@ -285,7 +285,15 @@ namespace Gamekit3D
             Vector3 chomperPosition = transform.position;
             float dist = Vector3.Distance(playerPostion, chomperPosition);
             bool isAttacking = controller.animator.GetCurrentAnimatorStateInfo(0).IsName("ChomperAttack");
-            if (dist <= 1.5f && isAttacking)
+            bool playerIsMeleeing =
+                GameObject.Find("Ellen").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("EllenCombo1")
+                ||
+                GameObject.Find("Ellen").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("EllenCombo2")
+                ||
+                GameObject.Find("Ellen").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("EllenCombo3")
+                ||
+                GameObject.Find("Ellen").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("EllenCombo4");
+            if (dist <= 1.5f && isAttacking && !playerIsMeleeing)
             {
                 Damageable d = player.GetComponentInChildren<Damageable>();
                 Damageable.DamageMessage message = new Damageable.DamageMessage
