@@ -19,6 +19,6 @@ public class goToMedium : MonoBehaviour
 
     public void onButtonClick()
     {
-        SceneManager.LoadScene("Caster's Trial 2");
+        SceneManager.LoadScene("Medium");
     }
 }

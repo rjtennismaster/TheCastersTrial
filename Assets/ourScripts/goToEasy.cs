@@ -19,6 +19,6 @@ public class goToEasy : MonoBehaviour
 
     public void onButtonClick()
     {
-        SceneManager.LoadScene("Caster's Trial 1");
+        SceneManager.LoadScene("Easy");
     }
 }

@@ -19,6 +19,6 @@ public class goToHard : MonoBehaviour
 
     public void onButtonClick()
     {
-        SceneManager.LoadScene("Caster's Trial 3");
+        SceneManager.LoadScene("Hard");
     }
 }
