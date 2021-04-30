@@ -14,7 +14,7 @@ public class dazeEnemies : MonoBehaviour
     {
         ellenAnim = GetComponent<Animator>();
         animatorList.Add(GameObject.Find("DireWolfRetarget").GetComponent<Animator>());
-        for(int i = 1; i < 7; i++)
+        for(int i = 1; i < 10; i++)
         {
             animatorList.Add(GameObject.Find("DireWolfRetarget (" + i +")").GetComponent<Animator>());
         }

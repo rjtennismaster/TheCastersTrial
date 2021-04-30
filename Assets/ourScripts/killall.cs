@@ -11,7 +11,7 @@ public class killall : MonoBehaviour
     public void increaseEnemiesDeadCounter()
     {
         enemiesDeadCounter += 1;
-        if(enemiesDeadCounter == 7)
+        if(enemiesDeadCounter == 10)
         {
             SceneManager.LoadScene("Kill All Ending Scene");
         }

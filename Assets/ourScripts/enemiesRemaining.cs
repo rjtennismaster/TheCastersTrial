@@ -10,7 +10,7 @@ public class enemiesRemaining : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        remainingEnemies = 7;
+        remainingEnemies = 10;
         counter = GetComponent<Text>();
     }
 
