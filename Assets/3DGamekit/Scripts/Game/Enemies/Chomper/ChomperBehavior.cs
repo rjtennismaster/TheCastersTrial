@@ -278,6 +278,7 @@ namespace Gamekit3D
         {
             playerScanner.EditorGizmo(transform);
         }
+#endif
         void Update()
         {
             GameObject player = GameObject.Find("Ellen");
@@ -308,6 +309,5 @@ namespace Gamekit3D
                 d.ApplyDamage(message);
             }
         }
-#endif
     }
 }
