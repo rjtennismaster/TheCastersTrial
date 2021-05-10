@@ -28,9 +28,8 @@ public class Fireball : MonoBehaviour {
 
 		string EnemyTag = "Enemy";
 		if(other.tag == EnemyTag){
-			GameObject Enemy = GameObject.FindGameObjectWithTag(EnemyTag);
-			Gamekit3D.Damageable damageableScript = Enemy.GetComponent<Gamekit3D.Damageable>();
-			damageableScript.maxHitPoints -= 1;
+			int maxHitPoints = d.maxHitPoints;
+			maxHitPoints -= 1;
 			d.ApplyDamage(message);
 		}
 		//Debug.Log("EMMMM");
