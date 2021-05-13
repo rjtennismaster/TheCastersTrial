@@ -7,6 +7,6 @@ public class restart : MonoBehaviour
 {
     public void OnButtonPress()
     {
-        SceneManager.LoadScene("Caster's Trial 1");
+        SceneManager.LoadScene("Choose Level");
     }
 }
